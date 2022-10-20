@@ -15,14 +15,17 @@ Before starting to work with QGIS we will set the language settings of QGIS to E
 Then within QGIS, we open the "**Settings**" menu in the main menu bar of QGIS and select -> "**Options**" as shown in Figure 1.
 
 ![Figure 1: Open the settings menu](Fig_01.png)
+**Figure 1: Open the settings menu**
 
 This will open a new window as shown in Figure 2. In this new window we check the "override system locale/System-Locale übersteuern" box at the top of the window and then select "American English" / "English United States" from the drop down menus marked with 1 in Figure 2. Then we press "OK" and completely close QGIS. When we now restart QGIS, the language should have switched to English and we are ready to start with the Tutorials.
 
 ![Figure 2: Change the language settings](Fig_02.png)
+**Figure 2: Change the language settings**
 
 ## 2 The Graphical User Interface (GUI) of QGIS
 
 ![Figure 3: The QGIS graphical user interface ](Fig_03.png)
+**Figure 3: The QGIS graphical user interface**
 
 After opening QGIS and selecting a new project, the graphical user interface of QGIS will look as demonstrated in Figure 3. Depending on whether you already worked in QGIS before, some windows/docks might be missing or additional ones are shown. How to open or close certain windows will be addressed in section 3 of this tutorial.
 In Figure 3, the most important section of the QGIS GUI are marked with red numbers. A brief description on each of these sections is given in Table 1.
@@ -42,15 +45,16 @@ In Figure 3, the most important section of the QGIS GUI are marked with red numb
 
 Closing one of the windows (for example Section 2, 8 or 6) is accomplished by simply clicking the "x" symbol on the top right of a window.
 
-**As a first exercise try to close section 2 and 7 by clicking the "x" symbols in the top right of the windows.** 
+**As a first exercise try to close section 2 and 7 by clicking the "x" symbols in the top right of the windows.** 
 
 As a result only the visualization window in the center (Section 1 - which cannot be closed) and the toolbox window (Section 6) remain open. As one of the key-actions in each GIS-project is the re-arrangement of Geodata-layers in the Layer window, we should now re-open the Layer window. This is a bit more complicated than closing it. To achieve this we have to 
 
-**select "View" in the main file menu (Section 3) -> Panels -> Layer panel (Figure 4 ).** 
+**select "View" in the main file menu (Section 3) -> Panels -> Layer panel (Figure 4 ).** 
 
 Now the Layer window should re-appear.
 
 ![Figure 4: Re-opening a closed window ](Fig_04.png)
+**Figure 4: Re-opening a closed window**
 
 The same procedure can be repeated for any (accidentally) closed window/panel. As you can see in the file menu there are numerous panels available that are not used by default in QGIS. Some of the available panels might be helpful depending on how you work in QGIS. For example you can try to activate the "Statistics" window. Once data is loaded, it will
 give you the option to display some statistical summaries of the information on the currently selected layer.
@@ -58,4 +62,4 @@ give you the option to display some statistical summaries of the information on 
 As a next exercise we will learn how to rearrange panels in the QGIS GUI. Panels can be arranged by **simple clicking and draging any panel in the grey bar on top of the panel depicting its title**. By doing this, panels locked to the sides of the GUI-space can be released and positioned at another place. To lock the panel on one of the sides of the GUI, the panels have to be dragged to the corresponding side until they lock. **Try to rearrange the currently open panels by positioning the Layer panel on the right side and the toolbox window to the left side of the GUI**. This should result in a GUI as depicted in Figure 5.
 
 ![Figure 5: The QGIS GUI after re-arranging windows ](Fig_05.png)
-
+**Figure 5: The QGIS GUI after re-arranging windows**
