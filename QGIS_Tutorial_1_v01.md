@@ -36,7 +36,7 @@ In Figure 3, the most important section of the QGIS GUI are marked with red numb
 | Section 6 | This is the toolboxes-window. Here all analysis tools of QGIS and official add-ons (including for example GRASS GIS and SAGA GIS). The toolbox window has a search option on the top. Most analysis steps (except for visualiza-tion settings) are conducted with the tools provided in these toolboxes. |
 | Section 7 | This is the browser window where you can easily search your files and drap & drop it to the Layer window below to load the geodata to QGIS |
 
-## Opening, closing and arranging windows / docks
+## 3 Opening, closing and arranging windows / docks
 
 Closing one of the windows (for example Section 2, 8 or 6) is accomplished by simply clicking the "x" symbol on the top right of a window.
 
